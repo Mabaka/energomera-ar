@@ -1,9 +1,0 @@
-{
-  "name": "energomera-ar",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Mabaka/energomera-ar",
-  "author": "KozlovNS@energomera.ru",
-  "license": "MIT",
-  "private": true
-}
