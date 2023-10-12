@@ -1,11 +1,11 @@
 import express from 'express'
+import dotenv from 'dotenv'
+
+dotenv.config({path: ".env"});
 
 const app: express.Application = express()
+app.set("port", process.env.PORT || 3000);
 
-app.get('/', (request: express.Request, response: express.Response) => {
-  response.send('Hello world')
-})
-
-app.listen(8080, () => {
-  console.log('Listening 8080')
+app.listen(app.get("port"), () => {
+  console.log(`Server is started on ${process.env.SERVER}:${app.get("port")}`)
 })

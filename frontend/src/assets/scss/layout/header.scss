@@ -1,0 +1,21 @@
+.header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;    
+}
+
+.header__logo {    
+    a {        
+        img {
+            width: 365px;                
+        }
+    }    
+}
+
+.header__login{
+    @include standart-button
+}   
+

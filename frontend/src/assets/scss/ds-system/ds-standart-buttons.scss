@@ -1,0 +1,9 @@
+@mixin standart-button{
+    @include b-s20-h23;
+    border-radius: 15px;   
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $blue;
+    color: $white;
+}

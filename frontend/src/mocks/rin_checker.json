@@ -1,0 +1,48 @@
+[
+    {
+        "blocks":[
+            {
+                "name":"Блока питания БП-01 (А15)",
+                "data":[
+                    {
+                        "functional_target": "RS-485 (A)",
+                        "num_of_contact_block":"8",
+                        "num_of_electrical_wiring_circuit":"71"
+                    },
+                    {
+                        "functional_target": "RS-485 (B)",
+                        "num_of_contact_block":"7",
+                        "num_of_electrical_wiring_circuit":"70"
+                    },
+                    {
+                        "functional_target": "RS-485 (Общ.)",
+                        "num_of_contact_block":"6",
+                        "num_of_electrical_wiring_circuit":"72"
+                    }
+                    
+                ]
+            },
+            {
+                "name":"Измеритель параметров ИП-01 (А14, А20)",
+                "data":[
+                    {
+                        "functional_target": "RS-485 (A)",
+                        "num_of_contact_block":"2",
+                        "num_of_electrical_wiring_circuit":"71"
+                    },
+                    {
+                        "functional_target": "RS-485 (B)",
+                        "num_of_contact_block":"3",
+                        "num_of_electrical_wiring_circuit":"70"
+                    },
+                    {
+                        "functional_target": "RS-485 (Общ.)",
+                        "num_of_contact_block":"1",
+                        "num_of_electrical_wiring_circuit":"72"
+                    }
+                    
+                ]
+            }
+        ]
+    }
+]
