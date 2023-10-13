@@ -1,0 +1,36 @@
+.content{
+    padding: 0 100px;
+}
+
+.hardware__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hardware__item__container{
+    img{
+        width: 400px;
+        padding-bottom: 10px;        
+    }
+}
+
+.hardware__item__desk{
+
+    border-bottom: 1px solid #000;
+
+    &::after {
+        display: block;
+        content: "";
+        padding-bottom: 10px;
+    }
+    @include b-s16-h19;
+}
+
+.hardware__item__open{
+    display: flex;
+    justify-content: center;
+    a{
+        @include standart-button-medium;
+    }
+}
