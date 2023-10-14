@@ -1,6 +1,6 @@
 <template>
   <AppHeader/>
-  <HomeView/>
+  <router-view />
 </template>
 
 <script setup>

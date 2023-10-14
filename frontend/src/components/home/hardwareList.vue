@@ -17,9 +17,12 @@
                         <span class="hardware__item__desk__typefield">Тип:</span> <span class="hardware__item__desk__typevalue">{{hardware_item.type}}</span>
                     </span>                    
                 </div>
-                <div class="hardware__item__open">
-                        <a href="#">Открыть</a>
-                    </div>
+                <div
+                 class="hardware__item__open">
+                    <router-link :to="{name: 'hardware',params:{id:'item_'+hardware_item.id}}">
+                        Открыть
+                    </router-link>
+                </div>
             </div>
         </div>                        
         </div>
