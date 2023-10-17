@@ -12,7 +12,7 @@
             </div>                
             <div
                 class="hardware__item__open">
-                <router-link :to="{name: 'hardware',params:{id:'item_'+hardware_item.id}}">
+                <router-link :to="{name: 'arviewer',params:{id:'item_'+hardware_item.id}}">
                     Начать диагностику
                 </router-link>
             </div>
@@ -23,10 +23,10 @@
 <script setup>
     import { computed } from 'vue';
     import { useRoute } from 'vue-router';
+    import hardware from '@/mocks/hardware.json';
 
     const route = useRoute();
-    const id = computed(()=>route.params.id);    
-    import hardware from '@/mocks/hardware.json';
+    const id = computed(()=>route.params.id);        
 
     const hardware_item = hardware.filter((item)=>{                
         return item.id == id.value.replace('item_','');        

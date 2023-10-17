@@ -1,0 +1,43 @@
+.ui__content{
+    position: absolute;    
+    left: 0;    
+}
+
+.ui__wrapper{
+    display: flex;    
+    justify-content: space-between;    
+    flex-direction: column;
+    min-height: 80vh;
+    max-height: 80vh;
+}
+
+.step__wrapper{
+    @include b-s20-h23;
+    color: $white;
+    padding: 20px;
+    -webkit-text-stroke: 1px #000; 
+}
+
+.bottom__elements{
+    display: flex;
+    flex-direction: column;    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;        
+}
+
+.step__desc{
+    display: block;    
+    margin-bottom: 30px;    
+    padding: 20px;
+    color: $white;
+    -webkit-text-stroke: 1px #000; 
+    @include b-s16-h19;
+}    
+
+.ar__ui__button{
+    @include standart-button-small;
+}
+

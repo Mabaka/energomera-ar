@@ -9,11 +9,21 @@
 }
 
 @mixin standart-button-medium{
-    @include b-s20-h23;
+    @include b-s14-h16;
     border-radius: 10px;   
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: $blue;
+    color: $white;
+}
+
+@mixin standart-button-small{
+    @include b-s11-h13;
+    border-radius: 10px;   
+    padding: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
     background-color: $blue;
     color: $white;
 }
