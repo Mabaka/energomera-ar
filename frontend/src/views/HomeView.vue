@@ -1,9 +1,9 @@
 <template>
     <main class="content">
-        <hardwareList/>
+        <hardwareTypesList/>
     </main>
 </template>
 
 <script setup>
-    import hardwareList from "@/components/home/hardwareList.vue";
+    import hardwareTypesList from "@/components/home/hardwareTypesList.vue";
 </script>
