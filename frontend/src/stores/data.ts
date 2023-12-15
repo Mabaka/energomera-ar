@@ -53,8 +53,7 @@ export const useDataStore = defineStore('data', {
             const stream = await navigator.mediaDevices.getUserMedia({video: true });
             stream.getTracks().forEach(function (track) {
                 track.stop();
-            });
-            document.getElementsByTagName('body')[0].style = '';
+            });            
         }
     }
 })
