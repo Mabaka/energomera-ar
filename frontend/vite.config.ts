@@ -15,13 +15,13 @@ export default defineConfig({
     host:true,
     port:8080,
     https:{
-      key:fs.readFileSync('/home/kozlovns/prj/test/key.pem'),
-      cert:fs.readFileSync('/home/kozlovns/prj/test/cert.crt'),
+      key:fs.readFileSync('/etc/ssl/private/kknss-key.pem'),
+      cert:fs.readFileSync('/etc/ssl/certs/kknss-cert.crt'),
       ca:[
-      fs.readFileSync('/home/kozlovns/prj/test/inter.crt'),
-      fs.readFileSync('/home/kozlovns/prj/test/kknss.csr'),
-      fs.readFileSync('/home/kozlovns/prj/test/root.crt')
+          fs.readFileSync('/etc/ssl/mdl/kknss-mdl.crt'),
+          fs.readFileSync('/etc/ssl/req/kknss-req.csr'),
+          fs.readFileSync('/etc/ssl/root/kknss-root.crt')
       ]
-      }
+  }
   }
 })
