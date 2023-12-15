@@ -9,8 +9,10 @@
                 </tr>
                 <tr v-for="item in hardware_types" class="hardware_types__table__tr tr">
                     <td class="hardware_types__table__td td">
-                        <div :key="item.id" class="hardware_types__item" :id="'type_' + item.id">
-                            {{ item.name }}
+                        <div :key="item.id" class="hardware_types__item hardware_types__open" :id="'type_' + item.id">
+                            <router-link :to="{ name: 'type', params: { id: 'type_' + item.id } }">
+                                {{ item.name }}
+                            </router-link>
                         </div>
                     </td>
                 </tr>

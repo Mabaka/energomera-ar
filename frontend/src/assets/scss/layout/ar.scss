@@ -38,6 +38,34 @@
 }    
 
 .ar__ui__button{
-    @include standart-button-small;
+    @include standart-button-small;        
 }
 
+.button__back__page__wrapper a{
+    @include standart-button-small;    
+}
+
+.button__back__page__wrapper{
+    padding: 20px;
+}
+
+.top__elements{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.left_side__elements{
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-around;    
+}
+
+.left_side__element{
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.left_side__element a{
+    color: $white;
+    @include standart-button-small;        
+}

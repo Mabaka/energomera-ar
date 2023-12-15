@@ -34,3 +34,17 @@
         @include standart-button-medium;
     }
 }
+
+.hardware_types__open{
+    a{
+        @include standart-button-medium;
+    }
+    display: flex;
+    justify-content: center;
+}
+
+.hardware_types__table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
