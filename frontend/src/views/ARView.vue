@@ -1,6 +1,6 @@
 <template>
-  <viewer :dataStore="DataStore"/>
-  <ui :dataStore="DataStore"/>
+  <viewer :dataStore="DataStore" />
+  <ui :dataStore="DataStore" />
 </template>
 
 <script setup>
@@ -27,7 +27,6 @@ if (hardware_item) {
     hardware_item: hardware_item
   };
 
-  DataStore.set(init_params);  
+  DataStore.set(init_params);
 }
-</script>
-
+</script>    

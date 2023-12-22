@@ -1,3 +1,9 @@
+body{
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
 .content{
     padding: 0 100px;
 }
@@ -10,7 +16,7 @@
 
 .hardware__item__container{
     img{
-        width: 400px;
+        max-width: 400px;
         padding-bottom: 10px;        
     }
 }

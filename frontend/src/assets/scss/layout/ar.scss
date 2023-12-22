@@ -1,14 +1,16 @@
 .ui__content{
     position: absolute;    
-    left: 0;    
+    left: 0;        
 }
 
 .ui__wrapper{
     display: flex;    
     justify-content: space-between;    
-    flex-direction: column;
+    flex-direction: column;    
     min-height: 80vh;
     max-height: 80vh;
+    min-width: 56vh;
+    max-width: 56vh;
 }
 
 .step__wrapper{
