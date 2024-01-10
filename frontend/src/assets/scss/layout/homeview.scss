@@ -1,3 +1,9 @@
+body{
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
 .content{
     padding: 0 100px;
 }
@@ -10,7 +16,7 @@
 
 .hardware__item__container{
     img{
-        width: 400px;
+        max-width: 400px;
         padding-bottom: 10px;        
     }
 }
@@ -33,4 +39,18 @@
     a{
         @include standart-button-medium;
     }
+}
+
+.hardware_types__open{
+    a{
+        @include standart-button-medium;
+    }
+    display: flex;
+    justify-content: center;
+}
+
+.hardware_types__table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

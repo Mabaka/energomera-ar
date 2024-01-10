@@ -1,14 +1,16 @@
 .ui__content{
     position: absolute;    
-    left: 0;    
+    left: 0;        
 }
 
 .ui__wrapper{
     display: flex;    
     justify-content: space-between;    
-    flex-direction: column;
+    flex-direction: column;    
     min-height: 80vh;
     max-height: 80vh;
+    min-width: 56vh;
+    max-width: 56vh;
 }
 
 .step__wrapper{
@@ -38,6 +40,34 @@
 }    
 
 .ar__ui__button{
-    @include standart-button-small;
+    @include standart-button-small;        
 }
 
+.button__back__page__wrapper a{
+    @include standart-button-small;    
+}
+
+.button__back__page__wrapper{
+    padding: 20px;
+}
+
+.top__elements{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.left_side__elements{
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-around;    
+}
+
+.left_side__element{
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.left_side__element a{
+    color: $white;
+    @include standart-button-small;        
+}

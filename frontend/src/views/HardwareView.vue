@@ -6,5 +6,5 @@
 
 
 <script setup>
-    import hardwareCard from "@/components/hardware/hardwareCard.vue";
+    import hardwareCard from "@/components/hardware/hardwareCard.vue";            
 </script>
